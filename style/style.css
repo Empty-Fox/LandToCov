@@ -314,12 +314,45 @@ span {
     .text {       
         width: 50%;       
     }
+    span {
+        font-size: 20px;
+    }
+    .header_text {        
+        margin-top: 5vh;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .button {       
+        font-size: 24px;
+        padding: 10px;        
+    }
+    p {
+        font-size: 16px;
+    }
    }
 
    @media only screen and (max-width: 595px)  {
     .img_block {
         margin-top: auto;
-    }      
+    }   
+    p {
+        font-size: 13px;
+    }  
+    .button {
+        font-size: 18px;
+        padding: 5px;
+    }
+    .text {
+        margin-left: 48%;
+        margin-top: 10px;
+    }
   
    }
    @media only screen and (max-width: 414px)  {
@@ -339,7 +372,7 @@ span {
    }
    @media only screen and (max-width: 375px) {
     span {
-        font-size: 24px;
+        font-size: 20px;
     }
     .button {      
         font-size: 24px;
